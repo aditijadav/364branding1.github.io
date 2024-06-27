@@ -1,0 +1,1100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'pragati_narrowregular';
+	font-family: 'pragati_narrowbold';
+	font-family: 'rockwell_stdextra_bold';
+	font-family: 'radio_canadaregular';
+	font-family: 'orelega_oneregular';
+}
+
+span {
+	padding-left: 0 !important;
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+
+}
+a{
+	list-style: none;
+	text-decoration: none;
+}
+@font-face {
+	font-family: 'pragati_narrowbold';
+	src: url('../assets/font/pragatinarrow-bold-webfont.woff2') format('woff2'),
+			 url('../assets/font/pragatinarrow-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'pragati_narrowregular';
+	src: url('../assets/font/pragatinarrow-regular-webfont.woff2') format('woff2'),
+			 url('../assets/font/pragatinarrow-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'rockwell_stdextra_bold';
+	src: url('../assets/font/rockwell_std_extra_bold-webfont.woff2') format('woff2'),
+			 url('../assets/font/rockwell_std_extra_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'radio_canadaregular';
+	src: url('../assets/font/radiocanada-variablefont_wdthwght-webfont.woff2') format('woff2'),
+			 url('../assets/font/radiocanada-variablefont_wdthwght-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'radio_canadaitalic';
+	src: url('../assets/font/radiocanada-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+			 url('../assets/font/radiocanada-italic-variablefont_wdthwght-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'orelega_oneregular';
+	src: url('../assets/font/orelegaone-regular-webfont.woff2') format('woff2'),
+			 url('../assets/font/orelegaone-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+section {
+	padding-top: clamp(1.875rem, 0.2083rem + 3.4722vw, 4.375rem);
+	padding-bottom: clamp(1.875rem, 0.2083rem + 3.4722vw, 4.375rem);
+}
+
+.logo{
+	width: clamp(6.25rem, 4.1667rem + 4.3403vw, 9.375rem);
+	height:clamp(2.1875rem, 0.7292rem + 3.0382vw, 4.375rem);
+}
+.logo a img{
+	width: 100%;
+	height: auto;
+}
+header {
+	width: 100%;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background-color: #ffffff;
+}
+
+.video-sec {
+	width: 100%;
+	height: 100%;
+}
+
+.video {
+	width: 100%;
+	height: auto;
+}
+
+video {
+	height: 100%;
+  width: 100%;
+	object-fit: fill;
+	z-index: 1;
+}
+.navbar li a.active{
+	color:#6490FC ;
+}
+.navbar li a{
+	font-family: 'pragati_narrowbold';
+	font-size: clamp(0.75rem, 0.6667rem + 0.1736vw, 0.875rem);
+	color: #050505;
+}
+.branding{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+}
+.navbar{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.navbar button{
+	background-color: #6490FC;
+	width:clamp(6.25rem, 4.375rem + 3.9063vw, 9.0625rem);
+	height:clamp(0.9375rem, 0.1042rem + 1.7361vw, 2.1875rem);
+	border: none;
+}
+.navbar button a {
+	color: white;
+	font-family: 'pragati_narrowbold';
+	font-size: clamp(0.75rem, 0.5833rem + 0.3472vw, 1rem);
+}
+.bg{
+	width: 100%;
+	margin: auto;
+}
+/* aboutus */
+section{
+	width: 100%;
+	position: relative;
+}
+#tb-aboutus .tb-aboutus{
+	width: 100%;
+	background-color: #ECEBEB;
+	position: relative;
+	padding: 50px 0;
+}
+#tb-aboutus .tb-aboutus::before{
+	content: "";
+	left: 0;
+	width: 150px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+#tb-aboutus .tb-aboutus::after{
+	content: "ABOUT";
+    left: 50px;
+    position: absolute;
+    top: -70px;
+		font-family: 'pragati_narrowbold';
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px #b8b8b8;
+    text-shadow: none;
+    letter-spacing: 15px;
+}
+.tb-section-title{
+	font-size: 72px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+
+}
+.tb-section-title span{
+	font-size: 72px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+	position: relative;
+	z-index: 1;
+}
+.tb-section-title span::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	left: 0;
+	top: 77px;
+	background-color: #6490FC;
+	z-index: -1;
+}
+.tb-aboutus-title-content-title{
+	font-family:'pragati_narrowbold';
+	font-size: 30px;
+}
+.tb-aboutus-title-content-discriptiion{
+	font-family:'pragati_narrowregular';
+	font-size: 16px;
+}
+.tb-section-title1{
+	font-size: 35px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+
+}
+.tb-section-title1 span{
+	font-size: 35px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+	position: relative;
+	z-index: 1;
+}
+.tb-section-title1 span::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 13px;
+	left: 0;
+	top: 34px;
+	background-color: #6490FC;
+	z-index: -1;
+}
+.tb-vision{
+	font-family:'pragati_narrowregular';
+	font-size: 20px;
+}
+.slick-slide img {
+	width: 100%;
+	height: auto;
+}
+.tb-slick{
+padding-top: 20px;
+}
+.tb-section-title2{
+	font-family: 'pragati_narrowbold';
+  position: relative;
+	top: 0;
+}
+.tb-section-title2 span{
+	font-size: 18px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+	position: relative;
+	color: white;
+	background-color: #050505;
+	width: 150px;
+	height: 37px;
+	z-index: 2;
+}
+.tb-section-title2 span::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 13px;
+	left: 0;
+	top: 17px;
+	background-color: #6490FC;
+	z-index: -1;
+}
+/* button css */
+.tb-button{
+	background-color: #050505;
+	border: none;
+	color: white;
+	width: 100px;
+	height: 40px;
+	margin-top: 30px;
+}
+.tb-about-sec{
+	padding-top: 40px;
+}
+.tb-button a {
+	color: white;
+}
+.tb-button a:hover{
+	color: #6490FC;
+}
+.tb-action{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 30px;
+}
+.tb-action .btn-primary{
+	background-color: #fff;
+	display:flex;
+	width: fit-content;
+	flex-flow: row wrap;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	padding: 0 30px;
+	color: #050505;
+}
+
+
+/* Service css */
+
+#tb-aboutus1 .tb-aboutus1{
+	width: 100%;
+	background-color: #151515;
+	position: relative;
+	padding: 50px 0;
+}
+#tb-aboutus1 .tb-aboutus1::before{
+	content: "";
+	right: 0;
+	width: 150px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+#tb-aboutus1 .tb-aboutus1::after{
+	content: "SERVICES";
+    right: 50px;
+    position: absolute;
+    top: -70px;
+		font-family: 'pragati_narrowbold';
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px #b8b8b8;
+    text-shadow: none;
+    letter-spacing: 15px;
+}
+.tb-section-title3{
+	font-size: 73px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+	color: white;
+	text-align: center;
+}
+.tb-section-title3 span{
+	font-size: 73px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+	position: relative;
+	color: white;
+	z-index: 1;
+}
+.tb-section-title3 span::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 13px;
+	left: 0;
+	top: 72px;
+	background-color: #6490FC;
+	z-index: -1;
+}
+.tb-offer{
+	text-align: center;
+	color: white;
+	font-family:'pragati_narrowregular';
+	font-size: 25px;
+}
+.tb-offer::before{
+	content: "---- ";
+	font-size: 25px;
+	color: #6490FC;
+}
+.tb-bullets {
+	list-style:disc;
+	padding-top: 30px;
+}
+.tb-bullets li{
+	color: #ffffff;
+	font-family:'pragati_narrowregular';
+	font-size: 20px;
+}
+.tb-section-title4{
+	padding: 10px;
+	text-align: center;
+	padding-top: 70px;
+}
+.tb-section-title4 span{
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+li::marker{
+	color: #6490FC;
+}
+#tb-aboutus2 .tb-aboutus2::after{
+	content: "APPROACH";
+    left: 50px;
+    position: absolute;
+    top: -35px;
+		font-family: 'pragati_narrowbold';
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px #b8b8b8;
+    text-shadow: none;
+    letter-spacing: 15px;
+}
+.tb-aboutus2 {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+.tb-aboutus2 .tb-section-title{
+	margin: auto;
+	width: fit-content;
+}
+.tb-offer1 {
+	text-align: center;
+	color: rgb(19, 19, 19);
+	font-family:'pragati_narrowregular';
+	font-size: 25px;
+}
+.tb-offer1::before{
+	content: "---- ";
+	font-size: 25px;
+	color: #6490FC;
+}
+.tb-sec-image{
+	padding-top: 80px;
+}
+.number{
+	position: relative;
+	font-size: 230px;
+	color: #E3DFDF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'orelega_oneregular';
+	padding-top: 40px;
+}
+.tactics{
+	position: absolute;
+	top: 120px;
+	font-family: 'pragati_narrowregular';
+	font-size: 50px;
+	color: #444444;
+}
+.tb-working{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.tb-working p{
+	font-family: 'pragati_narrowregular';
+	font-size: 15px;
+	text-align: justify;
+}
+.tb-working h3{
+	font-family: 'pragati_narrowregular';
+	font-size: 30px;
+}
+.tb-sec-tactics{
+	list-style:disc;
+	padding-top: 30px;
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding-left: 30px;
+}
+.tb-sec-tactics li{
+	font-family:'pragati_narrowbold';
+}
+.tb-section-approach .tb-button {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.tb-process-item{
+	padding: 20px;
+}
+
+#tb-aboutus3 .tb-aboutus3{
+	width: 100%;
+	background-color: #151515;
+	position: relative;
+	padding: 50px 0;
+}
+#tb-aboutus3 .tb-aboutus3::before{
+	content: "";
+	right: 0;
+	width: 150px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+#tb-aboutus3 .tb-aboutus3::after{
+	content: "TEAM";
+    right: 50px;
+    position: absolute;
+    top: -70px;
+		font-family: 'pragati_narrowbold';
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px #b8b8b8;
+    text-shadow: none;
+    letter-spacing: 15px;
+}
+.tb-team.tb-section-title3{
+	font-size: 73px;
+	line-height: 80px;
+	font-family: 'pragati_narrowbold';
+	color: white;
+	text-align: center;
+}
+
+.tb-team .tb-section-title {
+	color: #fff;
+	text-align: right;
+}
+
+.tb-team .tb-offer{
+	text-align: right;
+}
+.tb-team .tb-offer::before{
+	content: "---- ";
+	font-size: 25px;
+	color: #6490FC;
+}
+.tb-content p{
+	text-align: right;
+	color: #a3a3a3;
+	font-family:'pragati_narrowregular';
+	font-size: 19px;
+}
+.tb-content1 p{
+	padding-top: 35px;
+	text-align: right;
+	color: #a3a3a3;
+	font-family:'pragati_narrowregular';
+	font-size: 19px;
+}
+.tb-content h4{
+	text-align: right;
+	color: #6490FC;
+	font-family:'pragati_narrowregular';
+	font-size: 30px;
+}
+.tb-content h4 span{
+	font-family: 'pragati_narrowbold';
+	font-weight: 800;
+}
+marquee{
+	animation:infinite;
+}
+img{
+	width: 100%;
+}
+
+/* footer css */
+
+#tb-aboutus4 .tb-aboutus4{
+	width: 100%;
+	background-color: #ECEBEB;
+	position: relative;
+	padding: 50px 0;
+}
+#tb-aboutus4 .tb-aboutus4::before{
+	content: "";
+	left: 0;
+	width: 150px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+#tb-aboutus4 .tb-aboutus4::after{
+	content: "CONTACT US";
+    left: 50px;
+    position: absolute;
+    top: -70px;
+		font-family: 'pragati_narrowbold';
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px #b8b8b8;
+    text-shadow: none;
+    letter-spacing: 15px;
+}
+footer{
+	width: 100%;
+	height: auto;
+}
+.footer-logo{
+	width: 150px;
+}
+
+.footer-logo img{
+	width: 100%;
+}
+.footer-div{
+	display: flex;
+	flex-flow: row wrap;
+	gap:clamp(1rem, 0.625rem + 0.7813vw, 1.5625rem);
+}
+.intro{
+	color: rgb(31, 31, 31);
+	font-weight:normal;
+	font-size: clamp(0.625rem, 0.4583rem + 0.3472vw, 0.875rem);
+	font-family: 'pragati_narrowbold';
+}
+.icons{
+	display: flex;
+	flex-flow: row wrap;
+	gap:clamp(1rem, 0.625rem + 0.7813vw, 1.5625rem);
+}
+.quick-link{
+	display: flex;
+	flex-flow: row wrap;
+	gap:clamp(1rem, 0.625rem + 0.7813vw, 1.5625rem);
+}
+.quick-link h2{
+	color: rgb(32, 32, 32);
+	font-weight: bold;
+	font-size: clamp(0.9375rem, 0.6458rem + 0.6076vw, 1.375rem);
+	width: 100%;
+}
+.name{
+	display: flex;
+	flex-flow: row wrap;
+	gap: 9px;
+	font-family: 'pragati_narrowregular';
+}
+.name li{
+	width: 100%;
+}
+.name li a{
+	font-size: clamp(0.75rem, 0.5833rem + 0.3472vw, 1rem);
+	color: #050505;
+}
+.contact{
+	display: flex;
+	flex-flow: row wrap;
+	gap:clamp(1rem, 0.625rem + 0.7813vw, 1.5625rem);
+	font-family: 'pragati_narrowregular';
+}
+.contact a{
+	width: 100%;
+	color: #050505;
+	font-family: 'pragati_narrowregular';
+}
+.contact h2{
+	color: rgb(33, 33, 33);
+	font-weight: bold;
+	font-size: clamp(0.9375rem, 0.6458rem + 0.6076vw, 1.375rem);
+}
+.address{
+	display: flex;
+	gap:clamp(0.5rem, 0.3333rem + 0.3472vw, 0.75rem);
+}
+.text-sec{
+	font-size: clamp(0.5625rem, 0.3542rem + 0.434vw, 0.875rem);
+}
+.message{
+	display: flex;
+	gap:clamp(0.5rem, 0.3333rem + 0.3472vw, 0.75rem);
+	align-items: center;
+}
+.shuhari{
+	color: rgb(30, 30, 30);
+	font-size: clamp(0.625rem, 0.4167rem + 0.434vw, 0.9375rem);
+	font-weight: bold;
+}
+.newsletter{
+	display: flex;
+	flex-flow: row wrap;
+	gap:clamp(1rem, 0.625rem + 0.7813vw, 1.5625rem);
+}
+.input-form{
+	width: 100%;
+}
+input{
+border: none;
+border-bottom: 1px solid rgba(67, 66, 66, 0.5);
+background-color: transparent;
+color: white;
+width: 100%;
+width: 100%;
+padding: 20px 10px 5px 10px;
+font-size: clamp(0.75rem, 0.5417rem + 0.434vw, 1.0625rem);
+}
+.submit1{
+	padding-top: 20px;
+}
+.submit1 input{
+	background-color: #1c1b1b;
+	border: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	width: 140px;
+	height: 40px;
+}
+section#tb-aboutus4 {
+	padding-top: 140px;
+}
+/* section animation */
+.section {
+	display: none; /* Hide sections initially */
+	margin: 20px 0;
+	padding: 20px;
+	position: relative;
+	opacity: 0; /* Start with opacity 0 for fade-in effect */
+}
+
+.section.right {
+	right: -100%; /* Start off-screen to the right */
+}
+
+.section.left {
+	left: -100%; /* Start off-screen to the left */
+}
+/* Hamburger css */
+.menu-icon {
+	display: none;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.navbar {
+	display: flex;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	margin: 0 15px;
+}
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+	.navbar {
+			display: none;
+			flex-direction: column;
+			width: 100%;
+			background-color:#6490FC;
+	}
+
+	.menu {
+			flex-direction: column;
+			align-items: center;
+	}
+
+	.menu li {
+			margin: 10px 0;
+	}
+
+	.menu-icon {
+			display: block;
+	}
+
+	.navbar.active {
+			display: flex;
+			padding-top: 150px;
+	}
+	.menu-icon {
+		position: sticky;
+		left: 0;
+		z-index: 9999;
+		top: 0;
+		display: flex;
+		justify-content: flex-end;
+}
+.logo a img{
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+}
+
+
+
+
+/* mediaqury for footer starts here */
+@media only screen and (max-width:1440px){
+	#tb-aboutus .tb-aboutus::before{
+		display: none;
+	}
+	#tb-aboutus1 .tb-aboutus1::before{
+		display: none;
+	}
+	#tb-aboutus3 .tb-aboutus3::before{
+		display: none;
+	}
+	#tb-aboutus4 .tb-aboutus4::before{
+		display: none;
+	}
+
+}
+@media only screen and (max-width:1366px) and (min-width:1198px){
+
+}
+@media only screen and (max-width:1199px) and (min-width:990px){
+
+}
+@media only screen and (max-width:991px) and (min-width:768px){
+	.contact{
+		padding-top: 40px;
+	}
+	.newsletter{
+		padding-top: 40px;
+	}
+	.tb-section-title{
+		font-size: 40px;
+	}
+	.tb-section-title span{
+		font-size: 40px;
+	}
+	.tb-section-title span::before{
+		top: 37px;
+	}
+	.tb-section-title{
+		line-height: 50px;
+	}
+	.tb-content p{
+		font-size: 14px;
+	}
+	.tb-sec-image{
+		padding-top: 0;
+	}
+	.tb-content h4{
+		font-size: 24px;
+	}
+	.tb-aboutus-title-content-title{
+		font-size: 24px;
+	}
+	.tb-aboutus-title-content-discriptiion{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width:767px) and (min-width:576px){
+	.contact{
+		padding-top: 60px;
+	}
+	.newsletter{
+		padding-top: 60px;
+	}
+}
+@media only screen and (max-width:575px) and (min-width:413px){
+	.contact{
+		padding-top: 30px;
+	}
+	.newsletter{
+		padding-top: 30px;
+	}
+	.quick-link{
+		padding-top: 30px;
+	}
+	.footer-logo{
+		width: 80px;
+		height: 80px;
+	}
+	#tb-aboutus .tb-aboutus::after{
+		left: 5px;
+		font-size: 50px;
+		top: -44px;
+	}
+	#tb-aboutus1 .tb-aboutus1::after{
+		left: 5px;
+		font-size: 50px;
+		top: -44px;
+	}
+	#tb-aboutus2 .tb-aboutus2::after{
+		left: 5px;
+		font-size: 50px;
+		top: -44px;
+	}
+	#tb-aboutus4 .tb-aboutus4::after{
+		left: 5px;
+		font-size: 50px;
+		top: -44px;
+	}
+	#tb-aboutus3 .tb-aboutus3::after{
+		left: 5px;
+		font-size: 50px;
+		top: -44px;
+	}
+	.tb-team .tb-section-title{
+		text-align: left;
+	}
+	.tb-team .tb-offer{
+		text-align: left;
+	}
+	.tb-content p{
+		text-align: left;
+	}
+	.tb-content h4{
+		text-align: left;
+		font-size: 24px;
+	}
+	.tb-section-title3{
+		font-size: 48px;
+
+	}
+	.tb-section-title3 span{
+		font-size: 48px;
+	}
+	.tb-section-title3 span::before{
+		top: 47px;
+	}
+	.tb-section-title{
+		font-size: 48px;
+	}
+	.tb-section-title span{
+		font-size: 48px;
+	}
+	.tb-section-title span::before{
+		top: 47px;
+	}
+	.tb-sec-image{
+		padding-top: 20px;
+	}
+	.tb-sec-tactics{
+		align-items: flex-start;
+	}
+}
+@media only screen and (max-width:414px) and (min-width:319px){
+	.contact{
+		padding-top: 30px;
+	}
+	.newsletter{
+		padding-top: 30px;
+	}
+	.quick-link{
+		padding-top: 30px;
+	}
+	.footer-logo{
+		width: 80px;
+		height: 80px;
+	}
+	#tb-aboutus2 .tb-aboutus2::after{
+		font-size: 48px;
+	}
+	#tb-aboutus4 .tb-aboutus4::after{
+		font-size: 34px;
+	}
+	#tb-aboutus4 .tb-aboutus4::after{
+		left: 24px;
+		top: -29px;
+	}
+	#tb-aboutus3 .tb-aboutus3::after{
+		left: 24px;
+		top: -42px;
+		font-size: 43px;
+	}
+	#tb-aboutus2 .tb-aboutus2::after{
+		left: 24px;
+		top: -29px;
+		font-size: 43px;
+	}
+	#tb-aboutus1 .tb-aboutus1::after{
+		left: 24px;
+		top: -29px;
+		font-size: 43px;
+	}
+	#tb-aboutus .tb-aboutus::after{
+		left: 24px;
+		top: -29px;
+		font-size: 43px;
+	}
+	.tb-working p{
+		font-size: 12px;
+	}
+	.tb-team .tb-section-title{
+		text-align: left;
+	}
+	.tb-team .tb-offer{
+		text-align: left;
+	}
+	.tb-content p{
+		text-align: left;
+		font-size: 14px;
+	}
+	.tb-content h4{
+		text-align: left;
+		font-size: 22px;
+	}
+	.tb-section-title{
+		font-size: 40px;
+	}
+	.tb-section-title span{
+		font-size: 40px;
+	}
+	.tb-section-title span::before{
+		top: 34px;
+	}
+	.tb-section-title3{
+		font-size: 40px;
+	}
+	.tb-section-title3 span{
+		font-size: 40px;
+	}
+	.tb-section-title3 span::before{
+		top: 38px;
+	}
+	.tb-bullets li{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width:320px){
+	.contact{
+		padding-top: 30px;
+	}
+	.newsletter{
+		padding-top: 30px;
+	}
+	.quick-link{
+		padding-top: 30px;
+	}
+	.footer-logo{
+		width: 80px;
+		height: 80px;
+	}
+	.tb-process-item{
+		padding: 0;
+	}
+	#tb-aboutus2 .tb-aboutus2::after{
+		font-size: 38px;
+	}
+	.tb-section-title{
+		font-size: 35px;
+	}
+	.tb-section-title span{
+		font-size: 35px;
+	}
+	.tb-section-title3{
+		font-size: 35px;
+	}
+	.tb-section-title3 span{
+		font-size: 35px;
+	}
+	.tb-aboutus-title-content-title{
+		font-size: 19px;
+		padding-top: 10px;
+	}
+	#tb-aboutus4 .tb-aboutus4::after{
+		font-size: 28px;
+	}
+	#tb-aboutus3 .tb-aboutus3{
+		padding: 0;
+	}
+	.tb-aboutus-title-content-discriptiion{
+		font-size: 12px;
+	}
+	.tb-vision{
+		font-size: 15px;
+	}
+	.tb-section-title{
+		line-height: 30px;
+	}
+	section#tb-aboutus4{
+		padding-top: 20px;
+	}
+}
